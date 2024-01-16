@@ -3,7 +3,7 @@ kind: CronJob
 metadata:
   name: demo-job
 spec:
-  schedule: "* * * * *" #	Run every minute
+  schedule: "*/5 * * * *" #	Run every 5 minute. https://crontab.cronhub.io/
   jobTemplate:
     spec:
       template:
