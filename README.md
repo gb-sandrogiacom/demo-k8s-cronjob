@@ -1,6 +1,8 @@
 # Demo k8s, cronjob and Spring Boot
 
-## **Create a cronjob in k8s to run a Spring Boot application.**
+## **Create a cronjob in k8s (rancher desktop) to run a Spring Boot application.**
+
+![img.png](dash.png)
 
 ## References
 
