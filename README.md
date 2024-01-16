@@ -40,9 +40,11 @@ kubectl get cronjob
 ```
 
 ## For continuous monitoring
-    
-```bash
+
 kubectl get jobs --watch
+
+```bash
+kubectl get jobs
 ```
 
 ## Check logs
@@ -52,7 +54,7 @@ kubectl get pods | grep demo-job
 ```
 
 ```bash
-kubectl logs -f <pod-name>
+kubectl logs job/demo-job-28423995
 ```
 
 ## Delete cronjob

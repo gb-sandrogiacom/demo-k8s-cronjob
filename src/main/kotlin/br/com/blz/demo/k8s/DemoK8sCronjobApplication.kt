@@ -10,7 +10,7 @@ class DemoK8sCronjobApplication : CommandLineRunner {
 	override fun run(vararg args: String?) {
 		println("Job is starting...")
 		for (i in 1..60) {
-			Thread.sleep(1000)
+			Thread.sleep(2000)
 			println("Job is running step $i")
 		}
 		println("Job is done!")

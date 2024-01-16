@@ -4,6 +4,8 @@ metadata:
   name: demo-job
 spec:
   schedule: "*/5 * * * *" #	Run every 5 minute. https://crontab.cronhub.io/
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 3
   jobTemplate:
     spec:
       template:
